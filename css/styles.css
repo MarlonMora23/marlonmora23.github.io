@@ -203,18 +203,16 @@ body {
 
 .price__table{
     padding-top: 60px;
-    display: flex; 
-    flex-wrap: wrap;
-    gap: 1em;
-    justify-content:space-around;
-    align-items: center;
+    display: grid; 
+    justify-items: center;
+    gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
 }
 
 .price__element{
     background-color: #e5e5f7;
     text-align: center;
     border-radius: 10px;
-    width: 230px;
     padding: 40px;
     --color-plan: #696871;
     --color-price: #1D293F;
